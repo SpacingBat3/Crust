@@ -1,0 +1,17 @@
+[package]
+name = "crust"
+description = "Is it C? Is it Rust? It is Crust! :D"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+libc = {
+    version = "0.2.189",
+    default-features = false,
+}

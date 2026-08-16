@@ -1,6 +1,8 @@
 [package]
 name = "crust"
 description = "Is it C? Is it Rust? It is Crust! :D"
+license = "0BSD"
+license-file = "COPYING"
 version = "0.1.0"
 edition = "2024"
 
